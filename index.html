@@ -68,31 +68,6 @@
     </div>
     <!-- End #lead -->
 
-    <!--<div class="optional-section background-alt">-->
-        <!--<h2 class="heading">Work in progress</h2>-->
-
-        <!--<div class="optional-section-block">-->
-            <!--<h3>Not finished</h3>-->
-            <!--<p>-->
-                <!--Not finished Not finished Not finished Not finished Not finished Not finished-->
-            <!--</p>-->
-            <!--<ul>-->
-                <!--<li>-->
-                    <!--Not finished Not finished Not finished Not finished Not finished Not finished-->
-                <!--</li>-->
-                <!--<li>-->
-                    <!--Not finished Not finished Not finished Not finished Not finished-->
-                <!--</li>-->
-                <!--<li>-->
-                    <!--Not finished Not finished Not finished Not finished-->
-                <!--</li>-->
-            <!--</ul>-->
-        <!--</div>-->
-        <!--&lt;!&ndash; End .optional-section-block &ndash;&gt;-->
-
-    <!--</div>-->
-    <!--&lt;!&ndash; End .optional-section &ndash;&gt;-->
-
     <div id="about">
         <div class="container">
             <div class="row">
@@ -101,12 +76,10 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Hi! My name is Kirill and thank you for visiting my website. I am a fresh graduate in
-                        Embedded Computing Systems and I love every piece of it. I got my joined MSc degree from the
-                        University of Southampton (UK) and the Technical University of Kaiserslautern (Germany). Right
-                        now I work as an R&D Engineer at Nordic Semiconductor ASA in a wonderful city of Trondheim,
-                        which is in Norway. Right now my main responsibilities are digital design and verification of
-                        hardware IPs. Please, feel free to explore this website!
+                        Hi! My name is Kirill and welcome to my website. I have a Masters Degree in Embedded Computing Systems,  
+			which led me to a wonderful city of Trondheim, where I work in Nordic Semiconductor as a DevOps Engineer.
+			In my free time is am trying to complicate my life by building kubernetes clusters from Rasbery Pis and "smartifying" 
+			my home, all while breaking bones falling from bicycles. Please, feel free to explore this website!
                     </p>
                 </div>
             </div>
@@ -119,9 +92,13 @@
         <div id="experience-timeline">
             <div data-date="November 2019 – now">
                 <h3><a href="https://nordicsemi.com/" class="deco-none">Nordic Semiconductor</a> (Trondheim)</h3>
-                <h4>R&D Engineer</h4>
+                <h4>DebOps Engineer from 2022</h4>
                 <p>
-                    Digital design of hardware IPs used in Nordic's MCUs
+                    Maintaining compute cluster, custom Version Control System, login servers, CD/CI. Close cooperation with IT on physical needs for the infrustracture.
+                </p>
+		<h4>R&D Engineer until 2022</h4>
+                <p>
+                    Digital design and verification of GPIO modules and their high level integration. Maintainig the CD/CI of hardware development team. 
                 </p>
             </div>
 
@@ -244,6 +221,53 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+
+		<div class="project shadow-large">
+                    <div class="project-image">
+                        <a href="https://github.com/KiBk/homelab">
+                            <img src="images/homelab300x300.png"/>
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <h3>Homelab</h3>
+                        <p>
+				Self-hosted stack that I am running. Its main objective is to learn. I have a small 
+				cluster of 3 Raspberry Pis, VPS, Proxmox host and some networking equipment. 
+				Proxmox hosts OPNSense firewall and OpenMediaVault for NFS. VPS is used for all the Public traffic.
+                        </p>
+                        <p>
+                            <a href="https://github.com/KiBk/homelab">Github</a>
+                        </p>
+                    </div>
+                </div>
+
+		<div class="project shadow-large">
+                    <div class="project-image">
+                        <a href="https://github.com/kibk/emecsthon/">
+                            <img src="images/keyboards300x300.png"/>
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <h3>Attempt at soldering</h3>
+                        <p>
+                            	Proud to type in the office on the keybaord that it is powered by a product designed in the same very
+				office. Lily58 (bottom) uses Nrfmicros which are based on nRF52840, wireless and low power.
+			</p>
+			<p>
+                            	Next attempt was more of a show off... RGB, low profile, enclosed in a case. Doesn't come close in 
+				power consumption with a simplistic Lily, so it is wired, but this time with the screens!
+			</p>
+                        <p>
+                            <a href="https://github.com/kata0510/Lily58">Lily58</a>
+                            |
+                            <a href="https://github.com/foostan/crkbd">Corne</a>
+                            |
+                            <a href="https://github.com/joric/nrfmicro">Nrfmicro</a>
+                            |
+                            <a href="https://zmk.dev/">ZMK</a>
+                        </p>
+                    </div>
+                </div>
 
                 <div class="project shadow-large">
                     <div class="project-image">
@@ -408,13 +432,13 @@
                     <abc style="font-weight: bold">Russian</abc> – Native
                 </li>
                 <li>
+                    <abc style="font-weight: bold">Norwegian</abc> – Basics
+                </li>
+                <li>
                     <abc style="font-weight: bold">German</abc> - Basics
                 </li>
                 <li>
                     <abc style="font-weight: bold">Kazakh</abc> – Basics
-                </li>
-                <li>
-                    <abc style="font-weight: bold">Norwegian</abc> – Almost nothing
                 </li>
             </ul>
         </div>
@@ -442,7 +466,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017-2022 KIRILL BYKOV
+                        Copyright &copy; 2017-2023 KIRILL BYKOV
                     </p>
                     <p>
                         Forked from <a href="https://github.com/RyanFitzgerald" class="deco-none">Ryan Fitzgerald</a>
@@ -458,13 +482,13 @@
                         <li>
                             <a href="https://github.com/kibk" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
-                        <li>
+<!--                         <li>
                             <a href="https://instagram.com/mrkibk" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="https://linkedin.com/in/mrkirillbykov/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
-                        <li>
+<!--                         <li>
                             <a href="https://www.facebook.com/mrkibk" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
                         <li>
@@ -475,7 +499,7 @@
                         </li>
                         <li>
                             <a href="https://vk.com/mrkibk" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
